@@ -1,0 +1,68 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.buton {
+  color: yellow !important;
+  background-color: transparent !important;
+  border: 2px solid yellow !important;
+  font-weight: 600;
+}
+
+.buton:hover {
+  background-color: yellow !important;
+  color: black !important;
+  transform: scale(1.1);
+  border-radius: 5rem !important;
+}
+body {
+  background-color: #161616 !important;
+}
+
+h2 {
+  font-weight: bold !important;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.imagine-card {
+  width: 40rem !important;
+}
+mark {
+  padding: 0;
+}
+.buton1 {
+  color: black !important;
+  background-color: yellow !important;
+  border: 2px solid yellow !important;
+  font-weight: 600;
+  box-shadow: black 5px 5px !important;
+}
+i {
+  padding-right: 0.5rem !important;
+}
+
+.buton1:hover {
+  background-color: yellow !important;
+  color: black !important;
+  transform: scale(1.1);
+  border-radius: 5rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  p {
+    font-size: 0.7rem !important;
+  }
+  .responsive-img {
+  }
+}
